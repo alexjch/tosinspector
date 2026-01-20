@@ -1,0 +1,146 @@
+TERMS OF SERVICE
+
+Last Updated: January 1, 2026
+
+Welcome to our service. By using this service, you agree to the following terms and conditions.
+
+1. ACCOUNT REGISTRATION
+
+To use our service, you must create an account by providing accurate and complete information. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.
+
+2. ACCEPTABLE USE
+
+You agree to use our service only for lawful purposes. You must not:
+- Use the service to transmit harmful or malicious content
+- Attempt to gain unauthorized access to our systems
+- Interfere with other users' access to the service
+- Violate any applicable laws or regulations
+- Share your account with others
+- Use automated systems to access the service without permission
+
+3. SUBSCRIPTION AND PAYMENTS
+
+3.1 Subscription Plans
+We offer monthly and annual subscription plans. Pricing is available on our website and may change with 30 days notice.
+
+3.2 Payment Terms
+All payments are processed securely through our payment processor. By subscribing, you authorize us to charge your payment method on a recurring basis.
+
+3.3 Refund Policy
+We offer a full refund within 30 days of your initial subscription. After 30 days, payments are non-refundable. Annual subscriptions may be eligible for prorated refunds within the first 60 days at our discretion.
+
+To request a refund, contact support@example.com with your account details and reason for the refund request.
+
+4. PRIVACY AND DATA COLLECTION
+
+4.1 Information We Collect
+We collect and process the following information:
+- Email address and account information
+- Usage statistics and analytics data
+- Device information and IP addresses
+- Payment information (processed by our payment processor)
+- User-generated content and communications
+
+4.2 How We Use Your Data
+Your data is used to:
+- Provide and improve our services
+- Send service-related communications
+- Analyze usage patterns and trends
+- Prevent fraud and abuse
+- Comply with legal obligations
+
+4.3 Data Sharing
+We may share your data with:
+- Third-party analytics providers (Google Analytics, Mixpanel)
+- Payment processors
+- Cloud infrastructure providers
+- Law enforcement when legally required
+
+We do not sell your personal data to third parties.
+
+5. INTELLECTUAL PROPERTY
+
+All content, features, and functionality of our service are owned by us and protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, or create derivative works without our written permission.
+
+6. USER CONTENT
+
+6.1 Your Rights
+You retain all rights to content you upload or create using our service.
+
+6.2 License Grant
+By uploading content, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, and distribute your content solely for the purpose of providing the service.
+
+6.3 Content Moderation
+We reserve the right to remove content that violates these terms or is otherwise objectionable.
+
+7. TERM AND TERMINATION
+
+7.1 Term
+These terms remain in effect while you use our service.
+
+7.2 Termination by You
+You may cancel your account at any time through your account settings. Cancellation takes effect at the end of your current billing period.
+
+7.3 Termination by Us
+We may suspend or terminate your account if you:
+- Violate these terms
+- Engage in fraudulent activity
+- Fail to pay subscription fees
+- Use the service in a way that harms our systems or other users
+
+Upon termination, you lose access to your account and all associated data may be deleted after 90 days.
+
+8. WARRANTIES AND DISCLAIMERS
+
+8.1 Service Provided "As Is"
+Our service is provided "as is" and "as available" without warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.
+
+8.2 No Guarantee of Availability
+We do not guarantee that our service will be uninterrupted, timely, secure, or error-free. We may perform maintenance that temporarily limits access.
+
+9. LIMITATION OF LIABILITY
+
+To the maximum extent permitted by law, we shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, use, or goodwill, arising from your use of the service.
+
+Our total liability shall not exceed the amount you paid us in the 12 months preceding the claim.
+
+10. INDEMNIFICATION
+
+You agree to indemnify and hold us harmless from any claims, damages, liabilities, and expenses arising from your use of the service or violation of these terms.
+
+11. DISPUTE RESOLUTION
+
+11.1 Governing Law
+These terms are governed by the laws of the State of California, without regard to conflict of law principles.
+
+11.2 Arbitration
+Any disputes shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association. You waive your right to a jury trial.
+
+11.3 Class Action Waiver
+You agree to resolve disputes on an individual basis and waive the right to participate in class action lawsuits.
+
+12. CHANGES TO TERMS
+
+We may update these terms at any time. We will notify you of material changes via email or through the service. Your continued use after changes constitutes acceptance of the new terms.
+
+13. CONTACT INFORMATION
+
+For questions about these terms, contact us at:
+Email: legal@example.com
+Address: 123 Main Street, San Francisco, CA 94105
+
+14. MISCELLANEOUS
+
+14.1 Entire Agreement
+These terms constitute the entire agreement between you and us regarding the service.
+
+14.2 Severability
+If any provision is found unenforceable, the remaining provisions remain in effect.
+
+14.3 No Waiver
+Our failure to enforce any right or provision does not constitute a waiver of that right.
+
+14.4 Assignment
+You may not assign these terms without our consent. We may assign our rights and obligations to any party.
+
+By using our service, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.
