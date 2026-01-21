@@ -87,7 +87,7 @@ class OllamaEmbeddings:
 
         return session
 
-    def _make_request(self, endpoint: str, payload: Dict[str, Any]) -> Dict[str, Any]:
+    def _make_request(self, endpoint: str, payload: Dict[str, Any]) -> Any:
         """
         Make a request to Ollama API with error handling.
 
@@ -192,7 +192,7 @@ class OllamaEmbeddings:
 
         logger.info(f"Generating embeddings for {len(texts)} texts")
 
-        embeddings = []
+        embeddings: List[Any] = []
 
         for i, text in enumerate(texts):
             if not text or not text.strip():

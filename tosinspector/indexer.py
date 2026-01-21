@@ -172,7 +172,7 @@ class VectorIndex:
         # Add to collection
         self.collection.add(
             documents=texts,
-            metadatas=metadatas,
+            metadatas=metadatas,  # type: ignore[arg-type]
             ids=ids,
             embeddings=embeddings.tolist()
         )
@@ -213,14 +213,19 @@ class VectorIndex:
 
         # ChromaDB returns results as lists of lists (for multiple queries)
         # Extract the first query's results
+        ids = results["ids"][0] if results["ids"] else []
+        documents = results["documents"][0] if results["documents"] else []
+        metadatas = results["metadatas"][0] if results["metadatas"] else []
+        distances = results["distances"][0] if results["distances"] else []
+
         output = {
-            "ids": results["ids"][0] if results["ids"] else [],
-            "documents": results["documents"][0] if results["documents"] else [],
-            "metadatas": results["metadatas"][0] if results["metadatas"] else [],
-            "distances": results["distances"][0] if results["distances"] else []
+            "ids": ids,
+            "documents": documents,
+            "metadatas": metadatas,
+            "distances": distances
         }
 
-        logger.info(f"Retrieved {len(output['ids'])} results")
+        logger.info(f"Retrieved {len(ids)} results")
 
         return output
 

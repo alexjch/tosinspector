@@ -102,7 +102,7 @@ class OllamaGenerator:
             if "response" not in result:
                 raise Exception("Response missing 'response' field")
 
-            generated_text = result["response"]
+            generated_text: str = result["response"]
             logger.debug(f"Generated text (length: {len(generated_text)})")
 
             return generated_text
@@ -185,9 +185,9 @@ class QAEngine:
         Returns:
             str: Formatted context string
         """
-        context_parts = []
-        total_chars = 0
-        truncated = False
+        context_parts: List[str] = []
+        total_chars: int = 0
+        truncated: bool = False
 
         for chunk_text, chunk_id, metadata in zip(chunks, chunk_ids, metadatas):
             # Format chunk with metadata
@@ -328,6 +328,6 @@ DOCUMENT EXCERPT:
 SUMMARY:"""
 
         # Generate summary
-        summary = self.generator.generate(summary_prompt)
+        summary: str = self.generator.generate(summary_prompt)
 
         return summary.strip()

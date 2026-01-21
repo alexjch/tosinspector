@@ -1,6 +1,7 @@
 """Unit tests for Ollama embeddings adapter."""
 
 import pytest
+from typing import Any
 from unittest.mock import Mock, patch, MagicMock
 import numpy as np
 
@@ -47,7 +48,19 @@ class TestOllamaEmbeddings:
         mock_session_class.return_value = mock_session
 
         # Mock responses for each text
-        def mock_post(*args, **kwargs):
+        def mock_post(*args: Any, **kwargs: Any) -> Mock:
+            """
+            Mock function for HTTP POST requests to simulate embedding API responses.
+
+            Args:
+                *args: Variable length argument list (unused, required for mock signature).
+                **kwargs: Arbitrary keyword arguments (unused, required for mock signature).
+
+            Returns:
+                Mock: A mock response object with a json() method that returns a dictionary
+                      containing an 'embedding' key with a list of float values [0.1, 0.2, 0.3],
+                      and a raise_for_status() method for HTTP error handling.
+            """
             mock_response = Mock()
             mock_response.json.return_value = {"embedding": [0.1, 0.2, 0.3]}
             mock_response.raise_for_status = Mock()
